@@ -1,0 +1,104 @@
+<html>
+<head>
+
+  <style>
+    #bg {
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      background-size: cover;
+      background-attachment:scroll;
+      opacity: 0.5;
+
+      /* Preserve aspet ratio */
+      min-width: 100%;
+      min-height: 100%;
+    }
+    body {
+      color: white;
+      font-size: 6vw; 
+      text-align: center;
+      background-color: black;
+      margin: 0;
+      min-height: 100%;
+      overflow: hidden;
+    }
+    .center {
+      resize: both;
+      overflow: auto;
+      width: 50%;
+      top: 50%;
+      padding: 25%;
+
+      margin: auto;
+      vertical-align:middle;
+      position: absolute;
+      transform: translateY(-50%);
+    }
+    .time {
+      font-family: "VINCA STENCIL";
+      /*color: red;*/
+    }
+    .headline {
+      font-family: "VINCA STENCIL";
+      font-size: 7vw;
+      /*color: red;*/
+    }
+    .border {
+      border: 10px solid black;
+      border-radius: 25px;
+      border-spacing: 20px;
+      font-family: "VINCA STENCIL";
+    }
+    @font-face { 
+      font-family: "VINCA STENCIL"; 
+      src: url("vinca_stencil.ttf"); 
+    }
+    #loading {
+      position: fixed;
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      text-align: center;
+      opacity: 1;
+      background-color: #000;
+      z-index: 99;
+      }
+
+    #loading-image {
+      margin: auto;
+      width: 5%;
+      padding: auto;
+      vertical-align:middle;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      }
+  </style>
+</head>
+
+<body>
+
+<div id="loading">
+  <img class=center id="loading-image" src="img/VAyR.gif" alt="Loading..." />
+  <img classe=center width="35%" src="logo.png">
+</div>
+
+<img src="background.jpg" id="bg" alt="">
+
+<!-- Display the countdown timer in an element -->
+<div class=center>
+  <!--   <p id="demo4"></p> -->
+  <!-- <p class="headline">seeb&uuml;hne</p> -->
+  <p id="demo2" class="border"></p>
+  <p id="demo" class="time"></p>
+  <p id="demo3" class="border"></p>
+  <img src="./logo.png" width="35%">
+</div>
+
+<script src="scripts/countdown.js">
+</script>
+</body>
+</html>

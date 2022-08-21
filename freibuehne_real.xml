@@ -1,0 +1,62 @@
+<freibuehne>
+	<entry>
+		<type>setup</type>
+		<name>SetUp Paul Weber</name>
+		<time>Aug 12, 2022 13:30:00</time>
+	</entry>
+	<entry>
+		<type>live</type>
+		<name>Paul Weber</name>
+		<time>Aug 12, 2022 14:15:00</time>
+	</entry>
+	<entry>
+		<type>setup</type>
+		<name>SetUp Deine Cousine</name>
+		<time>Aug 12, 2022 15:15:00</time>
+	</entry>
+	<entry>
+		<type>live</type>
+		<name>Deine Cousine</name>
+		<time>Aug 12, 2022 16:15:00</time>
+	</entry>
+	<entry>
+		<type>setup</type>
+		<name>SetUp Bazzookas</name>
+		<time>Aug 12, 2022 17:15:00</time>
+	</entry>
+	<entry>
+		<type>live</type>
+		<name>Bazzookas</name>
+		<time>Aug 12, 2022 18:15:00</time>
+	</entry>
+	<entry>
+		<type>setup</type>
+		<name>SetUp Nathan Grey</name>
+		<time>Aug 12, 2022 19:15:00</time>
+	</entry>
+	<entry>
+		<type>live</type>
+		<name>Nathan Grey</name>
+		<time>Aug 12, 2022 20:15:00</time>
+	</entry>
+	<entry>
+		<type>setup</type>
+		<name>SetUp Steve 'n' Seagulls</name>
+		<time>Aug 12, 2022 21:30:00</time>
+	</entry>
+	<entry>
+		<type>live</type>
+		<name>Steve 'n' Seagulls</name>
+		<time>Aug 12, 2022 22:30:00</time>
+	</entry>
+	<entry>
+		<type>setup</type>
+		<name>SetUp GSGF</name>
+		<time>Aug 13, 2022 00:00:00</time>
+	</entry>
+	<entry>
+		<type>live</type>
+		<name>GSGF</name>
+		<time>Aug 13, 2022 01:00:00</time>
+	</entry>
+</freibuehne>
