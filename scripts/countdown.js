@@ -31,14 +31,13 @@ var x = setInterval(function() {
   var countDownDate = Date.parse(XMLTime);
   var distance = countDownDate - now;
 
-    if (distance < 0) {
-    setInterval(1);
+  if (distance < 0) {
     counter++;
     console.log(counter);
-    } else {
-    setInterval(1000)
+    return;
+  } else {
     document.getElementById("loading").style.visibility = "hidden";
-    };
+  }
   
   // var timeNow = new Date();
   // var timeNowString = timeNow.toLocaleTimeString();
